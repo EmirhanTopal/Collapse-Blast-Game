@@ -9,7 +9,7 @@ public class GridManager : MonoBehaviour
 {
     [SerializeField] private List<GameObject> gridBackground = new List<GameObject>();
     [SerializeField] private BoxFeatures features;
-    
+    [SerializeField] private GameObject camera;
     private List<int> _groupCounts = new List<int>();
     private List<GameObject> _gridBox = new List<GameObject>();
     private List<BoxManager> _colorBoxHash = new List<BoxManager>();
@@ -58,6 +58,9 @@ public class GridManager : MonoBehaviour
         _changeB = UIScript.StringB;
         _changeC = UIScript.StringC;
         InitialGrid();
+        GameObject mid = _gridBox[((_gridRows / 2) * _gridColumns - (_gridColumns / 2))- 1];
+        Debug.Log(mid.name);
+        camera.transform.position = new Vector3(mid.transform.position.x, mid.transform.position.y, camera.transform.position.z);
         _test = IntBoxGroupHelp();
         CheckGameOver(_test);
     }
