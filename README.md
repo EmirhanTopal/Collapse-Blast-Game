@@ -2,7 +2,7 @@
 
 **** Emirhan Topal ****
 
-**** Screen Resolution : 1920 X 1080 ****
+**** Screen Resolution : 1080x1920 ****
 
 **** Collapse / Blast Mechanic: ****
 
@@ -16,6 +16,5 @@ Unity Version 2022.3.18f1
 
 
 **** Game Screen ****
-![20250126-1036-11 3981128-ezgif com-gif-to-mp4-converter](Videos/20260611-1237-34.5049212.mp4)
-![ezgif com-webp-to-gif-converter](https://github.com/user-attachments/assets/e2462066-5f48-499f-8612-a98c55b1a379)
+![DEMO](Videos/20260611-1237-34.5049212.gif)
 
