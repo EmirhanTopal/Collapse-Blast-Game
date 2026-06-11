@@ -1,4 +1,4 @@
-# Collapse-Blast-Game-For-Case
+# Collapse-Blast-Game
 
 **** Emirhan Topal ****
 
